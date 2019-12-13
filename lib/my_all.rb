@@ -13,7 +13,7 @@ def my_all?(collection)
     return true
 end
 
-my_all([1,2,3]) { 
+my_all?([1,2,3]) { 
     |i| 
     i<2
 }
